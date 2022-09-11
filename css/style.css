@@ -1,0 +1,98 @@
+.page_container{
+    display: flex;
+    flex-direction: row;
+}
+.gallary-container{
+
+    background-image:    url(/assets/site/mapblue.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75%;
+    height: fit-content;
+}
+
+.persone-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 125px;
+    height:145px;
+    text-align: center;
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.persone-icon:hover{
+    opacity: 50%;
+}
+
+.persone-icon img{
+    width: 100px;
+    height: 100px;
+}
+
+.side_bar{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    background-color: rgb(53, 53, 53);
+    justify-content: space-between;
+}
+
+.side_bar_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.side_bar_top p{
+font-size: 3rem;
+
+}
+
+.details{
+    width: 90%;
+    display: none;
+    flex-direction: column;
+
+}
+
+.details img:first-child{
+
+    object-fit: contain;
+    width:100%;
+    height:auto;
+}
+
+
+.side_bar_name_house{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.side_bar_name_house img{
+
+    object-fit: contain;
+}
+
+.side_bar_bottom{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px
+}
+
+
